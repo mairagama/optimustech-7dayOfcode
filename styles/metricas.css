@@ -1,0 +1,31 @@
+.container__metricas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 6rem;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+.container__metricas div {
+    width: 280px;
+}
+
+.container__metricas-titulo {
+    font-weight: 600;
+    font-size: 3.75rem;
+    color: var(--cor-botoes-e-letras);
+    line-height: 4.5rem;
+}
+
+.container__metricas-subtitulo {
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: var(--cor-titulos);
+}
+
+.container__metricas-texto {
+    line-height: 1.5rem;
+    color: var(--cor-textos);
+}

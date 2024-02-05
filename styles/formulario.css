@@ -1,0 +1,68 @@
+.container__formulario {
+    background-color: var(--cor-de-fundo-secundaria);
+    text-align: center;
+    padding-bottom: 6rem;
+}
+
+.container__formulario-titulo {
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    letter-spacing: -0.02em;
+    color: var(--cor-titulos);
+    padding-top: 6rem;
+    padding-bottom: 1.25rem;
+}
+
+.container__formulario-texto {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: var(--cor-textos);
+    
+}
+
+.container__formulario__cadastro {
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5rem;
+    margin-bottom: 2.25rem;
+}
+
+.container__formulario__cadastro-botao {
+    text-decoration: none;
+    font-weight: 500;
+    border: 1px solid var(--cor-botoes-e-letras);
+    border-radius: 8px;
+    padding: 12px 20px;
+    line-height: 1.5rem;
+    background-color: var(--cor-botoes-e-letras);
+    color: var(--cor-de-fundo-principal);
+}
+
+.container__formulario-email {
+    border: 1px solid var(--cor-bordainput);
+    border-radius: 8px;
+    width: 360px;
+    height: 48px;
+    margin-right: 1rem;
+    color: var(--cor-titulos);
+    line-height: 24px;
+    padding-left: 1em;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.container__formulario-email::placeholder {
+    color: var(--cor-textos);
+    line-height: 24px;
+    padding-left: 0.5em;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.container__formulario-dados {
+   line-height: 24px;
+   color: var(--cor-textorodape);
+}

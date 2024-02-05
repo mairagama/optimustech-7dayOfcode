@@ -1,0 +1,79 @@
+
+.cabecalho {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em 6%;
+}
+
+.cabecalho__paginas {
+    padding-left: 6rem;
+    font-weight: 500;
+    color: var(--cor-textos);
+    margin-right: auto;
+}
+
+.cabecalho__paginas ul {
+    display: flex;
+    margin-right: auto;
+}
+
+.cabecalho__paginas-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--cor-textos);
+    padding: 0 2rem;
+}
+
+.cabecalho__botoes ul{
+    display: flex;
+    gap: 12px;
+}
+
+.cabecalho__botoes-entrar {
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--cor-textos);
+    padding: 10px 18px;
+}
+
+.cabecalho__botoes-cadastrar {
+    text-decoration: none;
+    font-weight: 500;
+    border: 1px solid var(--cor-botoes-e-letras);
+    border-radius: 8px;
+    padding: 10px 18px;
+    background-color: var(--cor-botoes-e-letras);
+    color: var(--cor-de-fundo-principal);
+}
+
+.cabecalho__secao {
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cabecalho__secao-sobrenos {
+    padding-bottom: 24px;
+    padding-top: 96px;
+    font-weight: 600;
+    color: var(--cor-botoes-e-letras);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cabecalho__secao-titulo {
+    padding-bottom: 24px;
+    font-weight: 600;
+    font-size: 3rem;
+    color: var(--cor-titulos);
+}
+
+.cabecalho__secao-texto {
+    font-size: 1.25rem;
+    color: var(--cor-textos);
+    padding-bottom: 96px;
+    margin: 0 25%;
+    line-height: 30px;  
+}

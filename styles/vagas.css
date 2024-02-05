@@ -1,0 +1,80 @@
+.container__vagas__disclaimer {
+    text-align: center;
+    margin-top: 6.25rem;
+}
+
+.container__vagas__disclaimer-subtitulo {
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 1rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 2.75rem;
+    color: var(--cor-botoes-e-letras);
+    margin-bottom: 1.25rem;
+}
+
+.container__vagas__disclaimer-titulo {
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    letter-spacing: -0.02em;
+    color: var(--cor-titulos);
+    margin-bottom: 1.25rem;
+}
+
+.container__vagas__disclaimer-texto {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: var(--cor-textos);
+    margin-bottom: 4rem;
+}
+
+.container__vagas__disclaimer-imagem {
+    width: 88%;
+}
+
+.container__vagas__especificacoes {
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+.container__vagas__especificacoes-titulo {
+    margin: 4rem 0 2rem 24%;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    color: var(--cor-titulos);
+}
+
+.container__vagas__especificacoes-vaga {
+    margin-left: 25%;
+}
+
+.container__vagas__especificacoes-vaga {
+    box-sizing: border-box;
+    padding: 1.5rem 1.5rem 1.75rem;
+    width: 50%;
+    border: 1px solid var(--cor-bordas);
+    border-radius: 16px;
+    margin-bottom: 1.5rem;
+}
+
+.container__vagas__especificacoes-vaga div {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.container__vagas__especificacoes-subtitulo {
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: var(--cor-titulos);
+}
+
+.container__vagas__especificacoes-texto{
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: var(--cor-textos);
+    padding-right: 1.5rem;
+    padding-top: 2rem;
+}

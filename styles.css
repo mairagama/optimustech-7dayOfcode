@@ -1,0 +1,24 @@
+@import url(styles/reset.css);
+@import url(styles/cabecalho.css);
+@import url(styles/metricas.css);
+@import url(styles/vagas.css);
+@import url(styles/aempresa.css);
+@import url(styles/formulario.css);
+
+:root {
+    --cor-de-fundo-principal: #FFFFFF;
+    --cor-de-fundo-secundaria: #F9FAFB;
+    --cor-botoes-e-letras: #8E2424;
+    --cor-titulos: #101828;
+    --cor-textos: #667085;
+    --cor-bordas: #EAECF0;
+    --cor-bordainput: #D0D5DD;
+    --cor-textorodape: #98A2B3;
+}
+
+body {
+    background-color: var(--cor-de-fundo-principal);
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 1rem;
+}
